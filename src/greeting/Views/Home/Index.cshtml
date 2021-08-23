@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+ <div class="container">
+
+    <h1>Greetings</h1>
+
+    <h4> <span class="message">@TempData["ErrorMessage"]</span> <span class="greet">@TempData["GreetMessage"]</span></h4>
+
+<form asp-action="SendToController" method = "POST">
+    <div class="nameContainer">
+      <div class="namefield">
+        <label for="name">Name</label>
+        <input type="text" name="name" class="name" id="name" placeholder="Enter your name">
+      </div>
+      <div class="counterBox">
+        <span class="greetCount">Count: <span class="counter">@TempData["Counter"]</span></span>
+      </div>
+    </div>
+    <!-- languge buttons -->
+    
+         <div class="language" id="lang">
+      <div class="english">
+        <input type="radio" name="greeting" id="english" class="rad" value="english"/>
+        <br />
+        <label for="english">English</label>
+      </div>
+      <div class="afrikaans">
+        <input type="radio" name="greeting" class="rad" id="afrikaans" value="afrikaans" />
+
+        <br />
+        <label for="afrikaans">Afrikaans</label>
+      </div>
+      <div class="xhosa">
+        <input type="radio" name="greeting" class="rad" id="xhosa" value="xhosa" />
+        <br />
+        <label for="xhosa">IsiXhosa</label>
+      </div>
+    </div>
+    <div class="display">
+      <div class="buttons">
+        <button class="btn greetMe" type="submit">Greet Me</button>
+        <br />
+      </div>
+    
+        <input type="submit" class="GreetedNames">Names Greeted</input>
+
+    </form>
+   
+      <div class="buttons">
+        <button class="btn btnReset" type="submit">Reset</button>
+      </div>
+      
+    </div>
+    
+    <br />
+  </div>

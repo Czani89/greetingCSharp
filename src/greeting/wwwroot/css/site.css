@@ -1,0 +1,195 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/*greet styling*/
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  /* margin: 0% 8%; */
+  background-color: wheat;
+}
+h1 {
+  background-color: gray;
+  color: black;
+  border: whitesmoke;
+  font-weight: bolder;
+  border: solid black 0.1rem;
+  display: inline-block;
+  margin: 1rem 50%;
+  transform: translateX(-50%);
+  padding: 0 2rem;
+}
+
+h4{
+text-align: center;
+}
+
+.container{margin: 2rem;
+  background-color: cadetblue;
+  padding: 1rem;
+  
+}
+.nameContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.name {
+  display: inline-block;
+  /* margin-top: 1rem; */
+}
+.counter {
+  font-weight: 900;
+  font-size:xx-large;
+  text-align: center;
+}
+.language {
+  display: flex;
+  text-align: center;
+  margin: 1rem 0rem;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: .3rem;
+  border: white solid .1rem;
+  font-weight: bold;
+  margin: .2rem 0;
+  width: 30%;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+.greet{
+  color:black;
+}
+.message{
+  color: red;
+}
+.btn{
+    background-color: blue;
+  color: white;
+  border: none;
+  width: 100%;
+  }
+@media (max-width: 425px) {
+  .nameContainer {
+    flex-direction: column;
+    
+  }
+  .greetCount {
+    display: block;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .nameContainer,
+  .language 
+  /* .display{ */{
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .greetCount {
+    display: block;
+    margin-top: 0.5rem;
+   
+  }
+  
+  .buttons{
+    background-color: blue;
+  color: white;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+
+  }
+  
+  h1 { 
+    padding: 0 1rem;
+  }
+}
+
+
+
