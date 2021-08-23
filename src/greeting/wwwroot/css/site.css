@@ -61,6 +61,9 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+    background-color: cadetblue;
+    margin: 2rem;
+  
 }
 .footer {
   position: absolute;
@@ -77,11 +80,11 @@ body {
   padding: 0;
 
 }
-
+/* 
 body {
   /* margin: 0% 8%; */
-  background-color: wheat;
-}
+  /* background-color: wheat; */
+/* } */ 
 h1 {
   background-color: gray;
   color: black;
@@ -97,12 +100,12 @@ h1 {
 h4{
 text-align: center;
 }
-
+/* 
 .container{margin: 2rem;
   background-color: cadetblue;
   padding: 1rem;
   
-}
+} */
 .nameContainer {
   display: flex;
   justify-content: space-around;
@@ -124,7 +127,7 @@ text-align: center;
   justify-content: space-evenly;
 }
 
-.buttons {
+/* .buttons {
   background-color: blue;
   color: white;
   border: none;
@@ -136,7 +139,7 @@ text-align: center;
   justify-content: center;
   display: block;
   text-align: center;
-}
+} */
 .display {
   display: flex;
   justify-content: space-around;
