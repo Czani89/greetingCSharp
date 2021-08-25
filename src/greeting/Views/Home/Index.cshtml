@@ -1,12 +1,12 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+  ViewData["Title"] = "Home Page";
 }
- <div class="container">
+<div class="container">
 
 
-    <h4> <span class="message">@TempData["ErrorMessage"]</span> <span class="greet">@TempData["GreetMessage"]</span></h4>
+  <h4> <span class="message">@TempData["ErrorMessage"]</span> <span class="greet">@TempData["GreetMessage"]</span></h4>
 
-<form asp-action="SendToController" method = "POST">
+  <form asp-action="SendToController" method="POST">
     <div class="nameContainer">
       <div class="namefield">
         <label for="name">Name</label>
@@ -17,10 +17,10 @@
       </div>
     </div>
     <!-- languge buttons -->
-    
-         <div class="language" id="lang">
+
+    <div class="language" id="lang">
       <div class="english">
-        <input type="radio" name="greeting" id="english" class="rad" value="english"/>
+        <input type="radio" name="greeting" id="english" class="rad" value="english" />
         <br />
         <label for="english">English</label>
       </div>
@@ -41,16 +41,16 @@
         <button class="btn-primary" type="submit">Greet Me</button>
         <br />
       </div>
-    
-        <button type="submit" class="btn-primary">Names Greeted</button>
 
-    </form>
-   
-      <div class="buttons">
-        <button class="btn-primary" type="submit">Reset</button>
-      </div>
-      
-    </div>
-    
-    <br />
+      <button type="submit" class="btn-primary">Names Greeted</button>
+
+  </form>
+
+  <div class="buttons">
+    <button class="btn-primary" type="submit">Reset</button>
   </div>
+
+</div>
+
+<br />
+</div>
